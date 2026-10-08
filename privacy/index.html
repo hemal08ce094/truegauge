@@ -19,7 +19,7 @@ li{margin:6px 0}a{color:var(--accent)}nav{display:flex;gap:16px;margin-bottom:36
 <p>The app asks only when you open a tool that needs the permission.</p>
 <p>| Permission | Used for | Where it goes |</p>
 <p>| --- | --- | --- |</p>
-<p>| Location | Compass heading, GPS readout, local weather, and the motion tracker, which keeps recording a route in the background only while you record one | Stays on your device, except as described under Weather |</p>
+<p>| Location | Compass heading, GPS readout, and the motion tracker, which keeps recording a route in the background only while you record one | Stays on your device |</p>
 <p>| Local network | Ping, Telnet and SSH to devices on your own network, only when you run them | Goes only to the device you entered |</p>
 <p>| Microphone | Decibel meter. Audio is never recorded or saved | Stays on your device |</p>
 <p>| Camera | Scanning QR codes | Stays on your device |</p>
@@ -27,9 +27,8 @@ li{margin:6px 0}a{color:var(--accent)}nav{display:flex;gap:16px;margin-bottom:36
 <p>| Photo library (add only) | Saving a QR code you made. The app never reads your photos | Your photo library |</p>
 <p>You can change any of these in Settings (iOS) or System Settings (Mac).</p>
 <h2>Network use</h2>
-<p>Truegauge connects to the network in two cases only.</p>
-<p>1. <strong>Tools you run.</strong> Ping, Telnet and SSH connect to the hosts you type in. Those connections go straight from your device to that host. SSH traffic is encrypted by the SSH protocol. I do not see it.</p>
-<p>2. <strong>Weather (Pro).</strong> If you open Weather, the app asks Apple's WeatherKit service for a forecast at your location. This goes from your device to Apple. I do not receive your location or the forecast. Apple handles it under its own privacy policy.</p>
+<p>Truegauge connects to the network in one case only.</p>
+<p><strong>Tools you run.</strong> Ping, Telnet and SSH connect to the hosts you type in. Those connections go straight from your device to that host. SSH traffic is encrypted by the SSH protocol. I do not see it.</p>
 <h2>Purchases</h2>
 <p>Truegauge Pro is a one-time purchase handled by the App Store. Apple processes the payment. I do not get your name, card details or Apple ID.</p>
 <h2>Children</h2>
